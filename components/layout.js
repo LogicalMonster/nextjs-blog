@@ -34,6 +34,12 @@ export default function Layout({ children, home }) {
           console.log(`script loaded correctly, window.FB has been populated`)
         }
       />
+      <Script 
+        strategy="afterInteractive" // 确保脚本在页面加载完后再执行
+        src="https://umami-chi-ashy-69.vercel.app/script.js" 
+        data-website-id="18f587c6-d262-4b51-b6e2-5e4fef822e4e"
+        defer 
+      />
       <header className={styles.header}>
         {home ? (
           <>
