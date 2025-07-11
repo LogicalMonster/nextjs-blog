@@ -41,12 +41,11 @@ export default function Layout({ children, home }) {
         defer 
       />
       <Script 
-        strategy="afterInteractive" // 确保脚本在页面加载完后再执行
         src="https://rn.logical-chat.top/api/script.js"
         data-site-id="1"
         data-session-replay="true"
         data-tracking-errors="true"
-        defer
+        strategy="afterInteractive" // 确保脚本在页面加载完后再执行
       />
       <header className={styles.header}>
         {home ? (
