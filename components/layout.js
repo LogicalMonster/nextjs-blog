@@ -40,6 +40,12 @@ export default function Layout({ children, home }) {
         data-website-id="18f587c6-d262-4b51-b6e2-5e4fef822e4e"
         defer 
       />
+      <Script 
+        strategy="afterInteractive" // 确保脚本在页面加载完后再执行
+        src="https://rn.logical-chat.top/api/script.js"
+        data-site-id="1"
+        defer
+      />
       <header className={styles.header}>
         {home ? (
           <>
