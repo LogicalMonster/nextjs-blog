@@ -40,6 +40,11 @@ export default function Layout({ children, home }) {
         data-website-id="18f587c6-d262-4b51-b6e2-5e4fef822e4e"
         defer 
       />
+      <Script 
+        src="https://rybbit.suanleme.cn/api/script.js"
+        data-site-id="2"
+        strategy="afterInteractive" // 确保脚本在页面加载完后再执行
+      />
       <header className={styles.header}>
         {home ? (
           <>
