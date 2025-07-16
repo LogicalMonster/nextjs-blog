@@ -45,6 +45,7 @@ export default function Layout({ children, home }) {
         data-site-id="2"
         strategy="afterInteractive" // 确保脚本在页面加载完后再执行
       />
+      
       <header className={styles.header}>
         {home ? (
           <>
