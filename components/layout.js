@@ -41,7 +41,7 @@ export default function Layout({ children, home }) {
         defer 
       />
       <Script 
-        src="https://rybbit.suanleme.cn/api/script.js"
+        src="https://rybbit.suanleme.cn:38080/api/script.js"
         data-site-id="2"
         strategy="afterInteractive" // 确保脚本在页面加载完后再执行
       />
